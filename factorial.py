@@ -6,9 +6,11 @@ Created on Thu Apr 16 16:15:34 2015
 """
 
 def factorial(n):
-    if n==1:
-        return n
-    return n * factorial(n-1)
+    total = 1
+    for i in range(n):
+        total = total*i
+    return total
+        
     
 #i like this function
     #lets make it a loop instead?
